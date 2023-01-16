@@ -1,0 +1,495 @@
+@charset "utf-8";
+/* 使用フォント---------------------------------- */
+/* 
+font-family: 'Cinzel',serif;
+font-family: 'Cormorant',serif;
+font-family: 'Cormorant Garamond',serif;
+font-family: 'Cormorant SC',serif;
+font-family: 'Lato',sans-serif;
+font-family: 'Playfair Display',serif;
+ */
+/* -------------------------------------------- */
+
+body{
+    margin: 0;
+}
+/* aタグのclassをlinkと設定してリンクの下線を消去 */
+.link{
+    text-decoration: none;
+}
+.top_image{
+     background-image: url(img/photo-1526481280693-3bfa7568e0f3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center top; */
+    background-position: 50% 50%; 
+    width: 100%; 
+    height: 95vh;    
+}
+
+.section1{
+    background-color:#2A2E41;
+}
+.button1{
+    color: #000;
+    margin-top: 8%;
+    font-size:14px;
+    border-radius: 50px;
+    height: 52px;
+    width: 164px;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+.button1_section{
+    text-align: center;
+}
+.top_image h1{
+    font-size: 4.5rem;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+.services img{
+    width: 200px;
+    margin: 10px;
+}
+.services h2{
+    font-family: 'Cormorant SC', serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+.services p{
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    color: #000;
+}
+.services{
+    width: 830px;
+    height: 256px;
+    font-size: 0.85rem;
+    background-color: white;
+    position: relative;
+    top: -20px;   
+    
+}
+
+.services_text{
+    margin: 20px 30px;
+    padding: 20px;
+    width: 100%;
+    
+}
+
+.content1{
+    margin-bottom: 30px;
+}
+.what{
+    margin-bottom: 100px;
+    width: 80%;
+    
+}
+.what_top{   
+    width:273px ;
+    height: 72px;
+    background-color: white;
+    text-align: center;
+    font-size: 32;
+}
+
+.what h2,.services2 h2{
+    margin: auto;
+}
+.what h2{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+.what p{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    width: 669px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.services2{
+    width: 80%;
+}
+/* .order,.order1{
+    width: 440px;
+} */
+
+
+.services2 img{
+    width: 100%;
+}
+
+.services2 p,.services2 h3{
+    color: white;
+    padding: 0 20px;
+}
+.services2 h2,.services2 h3{
+    font-family: 'Cormorant Garamond', serif;
+}
+.services2 p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+/* .order{
+    margin-left: 10px;
+} */
+
+.section2 img{
+    width: 1200px;
+}
+.types h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 800;
+    
+}
+
+/* メンバーシップの画像 */
+.member img{
+    width: 800px;
+}
+.member_text{
+    width: 80%;
+    color: #555555;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+}
+
+.section3{
+    background-color: #978493;
+}
+
+.sight img{
+    width: 450px;
+    margin:5px 0 30px;
+}
+.section3_img img{
+    width: 1200px;
+    align-items: center;
+}
+.sight_text{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 300;
+    width: 80%;
+    background-color: #F1F1F1;
+    color: #333333;
+    padding:30px 70px 75px 61px ;
+}
+.center_text{
+    font-size:24px ;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+}
+
+
+.section4{
+    padding: 40px;
+}
+
+.info{
+    /* padding: 20px; */
+    width: 80%;
+}
+.map{
+    width: 100%;
+}
+
+
+
+.info_text h3,.info_text p{
+    text-align: center;
+}
+.info_text h3{
+    font-family: 'Cormorant', serif;
+}
+.info_text p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+.share_button {
+    width: 70%;
+    margin-bottom: 10px;
+}
+.share_facebook img{
+    border-radius: 10px;
+    width: 120px;
+}
+.share_twitter img{
+    border-radius: 10px;
+    width: 120px;
+}
+.share_twitter{
+    margin-left: 20px;
+}
+
+
+footer{
+    background-color: #2A2E41;
+    color: white;
+    height: 30px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+footer p{
+    padding-top: 7px;
+}
+
+
+/* レスポンシブ対応 */
+
+    /* タブレット時に現れる */
+@media(min-width: 959px) {
+    .sp {
+        display: none !important;
+    }
+
+}
+    /* スマホ時に現れる */
+@media(min-width: 480px) {
+    .sp2 {
+        display: none !important;
+    }
+
+}
+
+    /* 959px以下に適用されるCSS（タブレット用） */
+@media screen and (max-width: 959px) {
+    .pc {
+            display: none !important;
+        }
+    .button1{
+        font-size: 12px;
+    }
+    .what {
+        margin-bottom: 30px;
+        width: 80%;
+
+    }
+    .services2_top{
+        margin-bottom: 0px;
+    }
+    
+    /* レスポンシブ時に要素の箇所の交代 */
+    .order1 {
+        order: 2;
+        padding-bottom: 50px;
+    }
+
+    .order2 {
+        order: 1;
+    }
+    .order3 {
+        order: 4;
+        padding-bottom: 50px;
+    }
+    .order4 {
+        order: 3;
+    }
+    .order5 {
+        order: 5;
+    }
+    .order6 {
+        order: 6;
+    }
+
+    .order,.order6{
+        padding-bottom: 50px;
+    }
+    .services2{
+        width: 90%;
+    }
+    .sight img {
+        width: 300px;
+        margin: 5px 0 30px;
+    }
+    .sight_text {
+        width: 100%;
+    }
+    .section2 img {
+        width: 100%;
+    }
+    .section3_img img {
+        width: 100%;
+        align-items: center;
+    }
+        .member img {
+            width: 100%;
+        }
+    .Please {
+        margin: 30px auto 0;
+        text-align: center;
+        width: 90%;
+        background-color: #D8B8D1;
+        color: #5c5c5c;
+        font-family: 'Playfair Display', serif;
+        font-size: 15px;
+        height: 64px;
+        padding: 20px 20px 0;
+    }
+
+    .button2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 0.75rem;
+        border-radius: 50px;
+        height: 38px;
+        width: 172px;
+        font-size: 20px;
+        color: #5c5c5c;
+        border: none;
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+    }
+    .button2_section {
+        text-align: center;
+    }
+    .section4 {
+        padding: 0;
+        margin: 50px 0 30px;
+    }
+
+    .map {
+            width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+        }
+}
+
+    /* 480px以下に適用されるCSS（スマホ用） */
+@media screen and (max-width: 480px) {
+
+    .pc2 {
+            display: none !important;
+        }
+    .top_image h1 {
+            font-size: 40px;
+    }
+    
+    .button1 {
+        margin-top: 8%;
+        border-radius: 50px;
+        height: 52px;
+        width: 154px;
+        font-size: 12px;
+        border: none;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+    }
+    .img1 {
+        display: none;
+    }
+    .img2 img{
+        width: 140px
+
+    }
+    .content1{
+        width: 350px;
+    }
+    .services{
+        height: 210px;
+    }
+    .services h2{
+        font-size: 20px;
+    }
+    .services2 h3{
+        font-size: 20px;
+    }
+    .services p{
+        font-size: 10px;
+    }
+    .services_text{
+        margin: 0 0 0 60px;
+        
+    }
+    .what p{
+        font-size: 15px;
+    }
+    .services2 {
+        width: 90%;
+    }
+    .services2 p,.services2 h3{
+        width: 100%;
+        padding: 0;
+    }
+    .sight_text {
+        font-size: 14px;
+        width: 90%;
+        background-color: #F1F1F1;
+        color: #333333;
+        padding: 30px 10px 35px 10px;
+        margin: 20px 0;
+    }
+    .types h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 18px;
+        font-weight: 800;
+    }
+    .types_class{
+        display: flex;
+        width: 350px;
+    }
+    .types{
+        width: 50%;
+        text-align: center;
+    }
+    .types_img{
+        width: 40%;
+    }
+    .center_text {
+        font-size: 18px;
+
+    }
+    .section4 {
+            padding: 20px;
+        }
+    .Please {
+        background-color: #D8B8D1;
+        width: 100%;
+        color: #5c5c5c;
+        font-family: 'Playfair Display', serif;
+        font-size: 15px;
+        height: 64px;
+        padding: 10px 20px 0;
+    }
+
+    .button2 {
+        margin-top: 20px;
+        margin-bottom: 30%;
+        font-size: 0.75rem;
+        border-radius: 50px;
+        height: 38px;
+        width: 172px;
+        font-size: 20px;
+        color: #5c5c5c;
+        border: none;
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+    }
+    
+    .map {
+        width: 100%;
+        height: 300px;
+    }
+    .info{
+        width: 100%;
+    }
+    .share_facebook img{
+        width: 100px;
+    }
+
+    .share_twitter img{
+        width: 100px;
+    }
+    .share_twitter{
+        margin-left: 5px;
+    }
+}
+
